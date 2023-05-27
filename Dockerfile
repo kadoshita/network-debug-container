@@ -13,6 +13,8 @@ RUN apt update && apt upgrade -y && \
     wget \
     dnsutils \
     mtr-tiny \
-    inetutils-ping
+    inetutils-ping \
+    nano \
+    netcat
 
 CMD ["/bin/bash"]
